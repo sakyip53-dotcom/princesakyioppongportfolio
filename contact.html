@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+        name="description"
+        content="Contact page for Prince Sakyi Oppong's operations portfolio."
+    />
+    <title>Contact | Prince Sakyi Oppong</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="contact">
+    <div class="site-shell">
+        <div class="ambient ambient-one"></div>
+        <div class="ambient ambient-two"></div>
+
+        <header class="site-header">
+            <div class="container nav-wrap">
+                <a class="brand" href="index.html">
+                    <span class="brand-mark">PSO</span>
+                    <span class="brand-copy">
+                        <strong>Prince Sakyi Oppong</strong>
+                        <small>Operations leadership portfolio</small>
+                    </span>
+                </a>
+                <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="site-nav">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="resume.html">Resume</a>
+                    <a class="nav-link" href="projects.html">Projects</a>
+                    <a class="nav-link is-active" href="contact.html" aria-current="page">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="page-main">
+            <section class="page-hero">
+                <div class="container page-hero-grid">
+                    <div data-reveal="up">
+                        <p class="eyebrow">Contact</p>
+                        <h1>Let's talk about operations, growth systems, and high-impact delivery.</h1>
+                        <p class="hero-lead">
+                            This portfolio is static, so the form below is set up as a polished front-end interaction
+                            ready for a future email or form-service connection.
+                        </p>
+                    </div>
+                    <div class="hero-side-card glass magnetic" data-reveal="left">
+                        <p>Best fit conversations</p>
+                        <ul class="bullet-list compact">
+                            <li>Operations leadership roles</li>
+                            <li>Advisory and consulting engagements</li>
+                            <li>Program and partnership delivery</li>
+                            <li>Training and capacity-building initiatives</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="container contact-grid">
+                    <div class="contact-panel glass" data-reveal="right">
+                        <div class="section-heading left-align">
+                            <p class="eyebrow">How to use this page</p>
+                            <h2>A clean contact experience with room for integration later.</h2>
+                        </div>
+                        <div class="stack-list">
+                            <article class="info-card glass magnetic">
+                                <span>01</span>
+                                <h3>Use the form for intent capture</h3>
+                                <p>The form interaction is already styled and animated, and can be connected to Formspree, Netlify Forms, or a custom backend.</p>
+                            </article>
+                            <article class="info-card glass magnetic">
+                                <span>02</span>
+                                <h3>Guide visitors to proof points</h3>
+                                <p>Visitors can move directly to the resume and project pages to review leadership depth and field results before reaching out.</p>
+                            </article>
+                            <article class="info-card glass magnetic">
+                                <span>03</span>
+                                <h3>Keep the experience premium</h3>
+                                <p>The same motion language and glass treatment from the portfolio are carried through here for a consistent finish.</p>
+                            </article>
+                        </div>
+                        <div class="button-group">
+                            <a class="button button-secondary magnetic" href="resume.html">Open resume</a>
+                            <a class="button button-secondary magnetic" href="projects.html">Open projects</a>
+                        </div>
+                    </div>
+
+                    <div class="form-panel glass" data-reveal="left">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <label for="name">Name</label>
+                                <input id="name" name="name" type="text" placeholder="Your full name" required />
+                            </div>
+                            <div class="form-row">
+                                <label for="email">Email</label>
+                                <input id="email" name="email" type="email" placeholder="name@example.com" required />
+                            </div>
+                            <div class="form-row">
+                                <label for="company">Organization</label>
+                                <input id="company" name="company" type="text" placeholder="Company or institution" />
+                            </div>
+                            <div class="form-row">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" placeholder="Tell me about the role, program, or opportunity." required></textarea>
+                            </div>
+                            <button class="button button-primary magnetic" type="submit">Send message</button>
+                            <p class="form-note" id="formNote">Static demo form. Submission is simulated for now.</p>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container footer-wrap">
+                <p>Prince Sakyi Oppong portfolio</p>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="resume.html">Resume</a>
+                    <a href="projects.html">Projects</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
