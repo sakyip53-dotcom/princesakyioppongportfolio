@@ -237,6 +237,7 @@ button {
     align-items: start;
     position: relative;
     min-height: 42rem;
+    padding-top: 90px;
 }
 
 .page-hero {

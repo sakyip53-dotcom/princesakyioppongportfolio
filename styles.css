@@ -84,6 +84,11 @@
     overflow: hidden;
 }
 
+/* 
+.hero-grid .container{
+  padding-top:300px;
+} */
+
 /* Video */
 .hero-video {
     position: absolute;
@@ -113,6 +118,14 @@
 .hero-section h1,
 .hero-section p {
     text-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.hero-lead{
+  line-height: 4.0;
+}
+
+.eyebrow{
+  line-height: 3.5;
 }
 
 *,
